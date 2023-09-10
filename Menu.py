@@ -1,5 +1,6 @@
 import Cadastro
 import Login
+import Vistoria
 import re as regex
 
 def menu():
@@ -22,7 +23,7 @@ def menu():
         case "2":
             Login.login()
         case "3":
-            print("Vistoria")
+            Vistoria.processo_vistoria()
         case _:
             print("Opção inválida")
             menu()

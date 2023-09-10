@@ -1,0 +1,13 @@
+[
+    {
+        "nome": "bike1",
+        "marca": "Specialized",
+        "modelo": "Tarmac",
+        "cor": "Preta",
+        "categoria": "Road",
+        "valor": "8000",
+        "numero_serie": "111111111",
+        "modificacao": "Nenhuma",
+        "acidentes": "Nenhum"
+    }
+]

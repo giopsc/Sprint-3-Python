@@ -62,6 +62,3 @@ def adicionar_usuario(usuario):
     usuarios.append(novo_usuario)
     with open("./tabela_cadastro.json", 'w', encoding='utf-8') as arquivo:
         json.dump(usuarios, arquivo, indent = 4)
-
-
-# cadastro()
