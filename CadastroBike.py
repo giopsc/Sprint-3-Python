@@ -2,7 +2,7 @@ import json
 import Validacoes
 
 
-def cadastrar_bicicleta():
+def cadastrar_bike():
 
     print("===== CADASTRO DA BICICLETA =====")
     bike = {}
@@ -60,5 +60,3 @@ def adicionar_bike(bike):
     with open("./tabela_cadastro_bikes.json", 'w', encoding='utf-8') as arquivo:
         json.dump(bikes, arquivo, indent = 4)
     print("Bike adicionada com sucesso!")
-
-cadastrar_bicicleta()
